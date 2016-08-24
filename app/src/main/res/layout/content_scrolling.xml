@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cabme.cabmedashboard.JoinIn"
+    tools:showIn="@layout/activity_scrolling"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/white"
+            android:layout_margin="17dp"
+            android:orientation="vertical"
+            android:elevation="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilani to Jaipur"
+                android:textSize="30sp"
+                android:layout_margin="12dp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="   25th Nov 2015 | 11:00 pm | Mr. Prakash Singh"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="17dp"
+            android:orientation="vertical"
+            android:elevation="15dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilani to Delhi"
+                android:textSize="30sp"
+                android:layout_margin="12dp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="   12th Dec 2015 | 06:00 am | Ms. Geeta Agarwal"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="17dp"
+            android:elevation="15dp"
+            android:orientation="vertical"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delhi to Goa"
+                android:textSize="30sp"
+                android:layout_margin="12dp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="   18th Dec 2015 | 10:00 am | Mr. Mahesh Prajapati"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="17dp"
+            android:orientation="vertical"
+            android:elevation="15dp"
+            android:background="@android:color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mumbai to Delhi"
+                android:textSize="30sp"
+                android:layout_margin="12dp"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:text="   25th Dec 2015 | 09:00 pm | Mr. Dhanraj Singhania"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

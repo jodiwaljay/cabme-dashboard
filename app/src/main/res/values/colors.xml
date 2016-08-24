@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#A52A2A</color>
+    <color name="yellow_themed">#A60000</color>
+    <color name="bac">#FBE601</color>
+    <color name="backgroundColor">#00000000</color>
+    <color name="google_plus">#CF3D28</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="action_bar_green">#39a448</color>
+    <color name="accent_material_dark">#39a448</color>
+</resources>

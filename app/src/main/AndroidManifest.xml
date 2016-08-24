@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cabme.cabmedashboard" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+         >
+        <activity
+            android:name=".Splash"
+            android:label="CabMe"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JoinIn"
+            android:label=" "
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.JOININ" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>r
+
+        </activity>
+        <activity
+            android:name=".capture_and_crop"
+            android:label=" "
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.CAPTURE_AND_CROP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".register_now"
+            android:label=" "
+            android:theme="@style/AppTheme.NoActionBar_StatusBar_Background">
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.REGISTER_NOW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".my_bookings"
+            android:label=" "
+            android:theme="@style/AppTheme.NoActionBar_StatusBar"
+            >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.MY_BOOKINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".profile"
+            android:label=" "
+            android:theme="@style/AppTheme.NoActionBar_StatusBar"
+            >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.PROFILE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_activity"
+            android:label="Join In"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.LOGIN_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".booking_activity"
+            android:label="New Booking"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.BOOKING_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".book_a_cab"
+            android:label="New Booking"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.BOOK_A_CAB" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".find_a_ride"
+            android:label="Find a Ride"
+            android:theme="@style/AppTheme.NoActionBar_StatusBar" >
+            <intent-filter>
+                <action android:name="cabme.cabmedashboard.FIND_A_RIDE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
