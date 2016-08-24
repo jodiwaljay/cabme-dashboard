@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group>
+        <item
+            android:id="@+id/login"
+            android:title="Login" />
+        <item android:id="@+id/book_a_cab_drawer_id"
+            android:title="Book a Cab" />
+        <item android:id="@+id/post_a_cab_drawer_id"
+            android:title="Post a Cab" />
+        <item android:id="@+id/find_a_ride_drawer_id"
+            android:title="Find a Ride" />
+        <item android:id="@+id/profile_drawer_id"
+            android:title="My Account" />
+        <item android:id="@+id/myBookings"
+            android:title="FAQ" />
+        <item android:id="@+id/nav_share"
+            android:title="Logout" />
+        <item
+            android:title="Contact us" />
+
+    </group>
+
+</menu>

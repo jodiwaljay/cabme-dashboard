@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="340dp"
+        android:background="#75000000"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="18sp"
+            android:paddingRight="13dp"
+            android:paddingEnd="13dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:hint="Name"
+            android:drawableLeft="@drawable/user"
+            android:drawableStart="@drawable/user"
+            android:background="@drawable/textview"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:singleLine="true"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:paddingRight="13dp"
+            android:paddingEnd="13dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:hint="Mobile No."
+            android:drawableLeft="@drawable/mobile"
+            android:drawableStart="@drawable/mobile"
+            android:background="@drawable/textview"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:singleLine="true"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:paddingRight="13dp"
+            android:paddingEnd="13dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="12dp"
+            android:hint="Email"
+            android:drawableLeft="@drawable/mail"
+            android:drawableStart="@drawable/mail"
+            android:background="@drawable/textview"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:singleLine="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:drawablePadding="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:paddingRight="13dp"
+            android:paddingEnd="13dp"
+            android:paddingLeft="3dp"
+            android:paddingStart="3dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:hint="Create Password"
+            android:drawableLeft="@drawable/lock"
+            android:drawableStart="@drawable/lock"
+            android:background="@drawable/textview"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bac"
+            android:text="Register Now"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/bRegisterNow"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="35dp"
+        android:background="#75000000"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign up with social media"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:textColor="@color/bac"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/facebook"
+                android:layout_marginRight="30dp"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/googleplus"
+                android:layout_height="40dp" />
+            <Button
+                android:layout_width="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/linkedin"
+                android:layout_height="40dp" />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/twitter"
+                android:layout_marginRight="20dp"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="7dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="16sp"
+        android:id="@+id/register_now_already_user"
+        android:clickable="true"
+        android:text="Already an user ?"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingBottom="7dp"
+        android:textColor="@color/bac"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:clickable="true"
+        android:textSize="16sp"
+        android:id="@+id/register_now_sign_in"
+        android:text="Sign in"/>
+
+</LinearLayout>

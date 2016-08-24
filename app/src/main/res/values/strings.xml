@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cabme Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="profile_photo">
+        <item>Capture Right Away</item>
+        <item>Choose an existing photo</item>
+    </string-array>
+</resources>
