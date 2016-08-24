@@ -27,7 +27,7 @@ public class Splash extends AppCompatActivity {
                         e.printStackTrace();
                     }
                     finally {
-                        Intent open_main_activity=new Intent("cabme.cabmedashboard.REGISTER_NOW");
+                        Intent open_main_activity=new Intent("cabme.cabmedashboard.");
                         startActivity(open_main_activity);
                         finish();
                     }
